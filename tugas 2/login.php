@@ -70,7 +70,7 @@ $timenow = date("j-F-Y-h:i:s A");
 	<h2><b>Masuk</b></h2>
 		<form method="POST">
 			<div class="user-box">
-				<input type="text" name="email" required="">
+				<input type="text" name="email" autocomplete="on" required="">
 				<label>Username</label>
 			</div>
 			<div class="user-box">
